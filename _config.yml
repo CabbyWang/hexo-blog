@@ -8,7 +8,7 @@ subtitle: lalala
 description: just go
 keywords: 
 author: Wangsiyong
-language: zh-hans
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -27,7 +27,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: readme.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -74,7 +74,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+Plugins: hexo-generate-feed
 
 archive_generator:
   per_page: 10
